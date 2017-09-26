@@ -1,5 +1,5 @@
 //============================================================================
-// Name        : H.cpp
+// Name        : helloWorld.cpp
 // Author      : Nedim Basic
 // Version     :
 // Copyright   : All rights are reserved
