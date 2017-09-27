@@ -43,7 +43,7 @@
 						</toolChain>
 					</folderInfo>
 					<sourceEntries>
-						<entry excluding="src/01readWriteNumber.cpp|src/helloWorld.cpp" flags="VALUE_WORKSPACE_PATH|RESOLVED" kind="sourcePath" name=""/>
+						<entry excluding="src/17computeAreaSquare.cpp|src/16calcSqrtSumSquareThreeNumber.cpp|src/15calcSqrtSumSquareTwoNumber.cpp|src/13calcSqrtAvgFourNumber.cpp|src/12calcSqrtAvgTwoNumber.cpp|src/11calcSumCubeThreeNumber.cpp|src/10calcSumCubeTwoNumber.cpp|src/09calcSumSquareThreeNumber.cpp|src/08calcSumSquareTwoNumber.cpp|src/07writeSquareRoot.cpp|src/06writePowNumber.cpp|src/05writeAverageThreeNumber.cpp|src/04writeAverageTwoNumber.cpp|src/03writeSquare.cpp|src/02writeSum.cpp|src/login.cpp|src/01readWriteNumber.cpp|src/helloWorld.cpp" flags="VALUE_WORKSPACE_PATH|RESOLVED" kind="sourcePath" name=""/>
 					</sourceEntries>
 				</configuration>
 			</storageModule>
@@ -91,7 +91,7 @@
 						</toolChain>
 					</folderInfo>
 					<sourceEntries>
-						<entry excluding="01readWriteNumber.cpp|helloWorld.cpp" flags="VALUE_WORKSPACE_PATH|RESOLVED" kind="sourcePath" name="src"/>
+						<entry excluding="17computeAreaSquare.cpp|16calcSqrtSumSquareThreeNumber.cpp|15calcSqrtSumSquareTwoNumber.cpp|13calcSqrtAvgFourNumber.cpp|12calcSqrtAvgTwoNumber.cpp|11calcSumCubeThreeNumber.cpp|10calcSumCubeTwoNumber.cpp|09calcSumSquareThreeNumber.cpp|08calcSumSquareTwoNumber.cpp|07writeSquareRoot.cpp|06writePowNumber.cpp|05writeAverageThreeNumber.cpp|04writeAverageTwoNumber.cpp|03writeSquare.cpp|02writeSum.cpp|login.cpp|01readWriteNumber.cpp|helloWorld.cpp" flags="VALUE_WORKSPACE_PATH|RESOLVED" kind="sourcePath" name="src"/>
 					</sourceEntries>
 				</configuration>
 			</storageModule>
