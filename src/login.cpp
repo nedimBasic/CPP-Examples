@@ -2,7 +2,7 @@
 // Author      : Nedim Basic
 // Version     : 1.0
 // Copyright   : All rights are reserved
-// Description : Teaching how to programming login with username and password in C++, Ansi-style
+// Description : Algorithm how to programming login with username and password in C++, Ansi-style
 // New terms   : getline(), toupper(), string.size()
 //============================================================================
 
@@ -41,4 +41,3 @@ int main() {
 			}
 	return 0;
 }
-
