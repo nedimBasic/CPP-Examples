@@ -108,22 +108,22 @@ LRESULT CALLBACK WndProc(HWND hWnd, UINT message, WPARAM wParam, LPARAM lParam)
 
     switch (message)
       {
-    case WM_PAINT:
-          HDC     hDC;
-          PAINTSTRUCT ps;
-          hDC = BeginPaint(hWnd, &ps);
-                                    // Paint the line
-                                       MoveToEx(hDC, 45, 25, NULL);
-                                       LineTo(hDC, 45, 90);
-                                       MoveToEx(hDC, 350, 25, NULL);
-                                       LineTo(hDC, 350, 90);
-                                       MoveToEx(hDC, 45, 25, NULL);
-                                       LineTo(hDC, 350, 25);
-                                       MoveToEx(hDC, 45, 90, NULL);
-                                       LineTo(hDC, 350, 90);
-               EndPaint(hWnd, &ps);
-               return 0;
-               break;
+//    case WM_PAINT:
+//          HDC     hDC;
+//          PAINTSTRUCT ps;
+//          hDC = BeginPaint(hWnd, &ps);
+//                                    // Paint the line
+//                                       MoveToEx(hDC, 45, 25, NULL);
+//                                       LineTo(hDC, 45, 90);
+//                                       MoveToEx(hDC, 350, 25, NULL);
+//                                       LineTo(hDC, 350, 90);
+//                                       MoveToEx(hDC, 45, 25, NULL);
+//                                       LineTo(hDC, 350, 25);
+//                                       MoveToEx(hDC, 45, 90, NULL);
+//                                       LineTo(hDC, 350, 90);
+//               EndPaint(hWnd, &ps);
+//               return 0;
+//               break;
     int val;
     case WM_COMMAND:
 
@@ -329,9 +329,9 @@ void AddControls(HWND hWnd)
    hProjectSponsor = CreateWindow("static", "Copyright", WS_VISIBLE | WS_CHILD | SS_LEFT,
 		   50, 400, 300, 25, hWnd, NULL, NULL, NULL);
 
-   hFont=CreateFontA(22, 0, 0, 0, FW_DONTCARE, FALSE, FALSE, FALSE, ANSI_CHARSET,
-   		   OUT_DEFAULT_PRECIS, CLIP_DEFAULT_PRECIS, DEFAULT_QUALITY, DEFAULT_PITCH | FF_SWISS, "Calibri");
-   SendMessage (hProjectSponsor, WM_SETFONT, WPARAM (hFont), TRUE);
+//   hFont=CreateFontA(22, 0, 0, 0, FW_DONTCARE, FALSE, FALSE, FALSE, ANSI_CHARSET,
+//   		   OUT_DEFAULT_PRECIS, CLIP_DEFAULT_PRECIS, DEFAULT_QUALITY, DEFAULT_PITCH | FF_SWISS, "Calibri");
+//   SendMessage (hProjectSponsor, WM_SETFONT, WPARAM (hFont), TRUE);
 
 // Bosnian Version Calculator v.1.0
     // Text label for Biraj racunicu !
