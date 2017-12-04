@@ -364,7 +364,6 @@ void loadImages()
 	hSemiperimeterForlumaImage = (HBITMAP)LoadImage(NULL, "HeronsSemiperimeterFormula.bmp", IMAGE_BITMAP, 200, 48, LR_LOADFROMFILE);
 	hLogoImage = (HBITMAP)LoadImage(NULL, "academic_logo_en.bmp", IMAGE_BITMAP, 320, 60, LR_LOADFROMFILE);
 }
-
 char *tochar(long int i, char *p)
 {
     if (i / 10 == 0) {
